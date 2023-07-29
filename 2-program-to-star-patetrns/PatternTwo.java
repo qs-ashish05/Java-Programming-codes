@@ -50,6 +50,34 @@ public class PatternTwo {
             System.out.println("");      // move to the next line
         }
 
+
+        System.out.println();
+        System.out.println("Pattern - 03");
+        /*Problem - 02*/
+        /*
+                *
+               **
+              ***
+             ****
+            *****
+             ****
+              ***
+               **
+                *
+         */
+
+        // same as program in file PatternOne.java 
+        for (int i = 1; i <= 9; i++) {
+            // for loop to print sapces
+            for (int j = 5; j >= i; j--) {
+                System.out.print(" ");
+            }
+
+            for (int j = 0; j < args.length; j++) {
+                
+            }
+        }
+
     }
 }
 
